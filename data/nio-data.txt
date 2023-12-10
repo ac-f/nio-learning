@@ -1,1 +1,1 @@
-hi!
+Testing for FileChannel write() method
