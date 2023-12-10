@@ -13,6 +13,7 @@ public class FileChannelDemo1_Read {
         RandomAccessFile file = new RandomAccessFile("data/nio-data.txt", "rw");
         FileChannel channel = file.getChannel();
 
+
         // 創建一個 Buffer
         final var byteBuffer = ByteBuffer.allocate(1024);
 
